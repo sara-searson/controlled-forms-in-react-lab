@@ -87,23 +87,26 @@ input {
 
 .bookCardsDiv {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   width: 90%;
   margin-top: 20px;
+  justify-content: center;
 }
 
 .bookCard {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   border: 1px solid white;
-  padding: 5px;
+  padding: 10px;
   width: 40%;
-  margin: 15px 10px;
+  margin: 10px;
   background-color: rgb(155, 155, 155);
   color: black;
+  width: 150px;
+  height: 250px;
 }
 
 
